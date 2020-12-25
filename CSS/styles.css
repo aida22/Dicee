@@ -1,0 +1,21 @@
+body{
+  background-color: #f6eec9;
+  text-align: center;
+  margin: 0;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 8rem;
+  color: #799351;
+  margin: 0 auto 0;
+}
+table{
+  margin: auto 400px;
+  font-family: 'Open Sans', sans-serif;
+  color: #799351;
+  font-size: 3rem;
+  margin: 0 auto 0;
+}
+.pl1{
+  padding-right: 60px;
+}
