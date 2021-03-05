@@ -1,9 +1,9 @@
-var randomNumber = (Math.floor(Math.random() * 6) + 1);
-var randomImg = "image/dice" + randomNumber + ".png";
+let randomNumber = (Math.floor(Math.random() * 6) + 1);
+let randomImg = "image/dice" + randomNumber + ".png";
 document.querySelectorAll("img")[0].setAttribute("src", randomImg);
 
-var randomNumber2 = (Math.floor(Math.random() * 6) + 1);
-var randomImg2 = "image/dice" + randomNumber2 + ".png";
+let randomNumber2 = (Math.floor(Math.random() * 6) + 1);
+let randomImg2 = "image/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomImg2);
 
 if (randomNumber > randomNumber2){
